@@ -1,0 +1,121 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C = IN, ST = Delhi, L = New Delhi, O = SERVER CSR, OU = SERVER CSR
+   i:C = IN, ST = Delhi, L = New Delhi, O = CA PEM, OU = CA PEM
+ 1 s:C = IN, ST = Delhi, L = New Delhi, O = CA PEM, OU = CA PEM
+   i:C = IN, ST = Delhi, L = New Delhi, O = CA PEM, OU = CA PEM
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDNTCCAh0CFAh5PzHWsEpwyQWq72WvU+IuvmEEMA0GCSqGSIb3DQEBCwUAMFMx
+CzAJBgNVBAYTAklOMQ4wDAYDVQQIDAVEZWxoaTESMBAGA1UEBwwJTmV3IERlbGhp
+MQ8wDQYDVQQKDAZDQSBQRU0xDzANBgNVBAsMBkNBIFBFTTAeFw0yMjAzMTQwNTQ3
+NTBaFw0yNzEwMjIwNTQ3NTBaMFsxCzAJBgNVBAYTAklOMQ4wDAYDVQQIDAVEZWxo
+aTESMBAGA1UEBwwJTmV3IERlbGhpMRMwEQYDVQQKDApTRVJWRVIgQ1NSMRMwEQYD
+VQQLDApTRVJWRVIgQ1NSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+tURdUO3ddhwTVF1LYSN+QaQRbjNUhUvKP34tf++zJ9eCNgpU9N9v6nlIyotvMmTM
+VZ9OTWR/zHuJzdNs4ILotLa5bMGvx/IbiDP7MPSN7X+Hpj60gh5GAwvAOqj8dym5
+6RIi+PfEXZsBMKDNri1i2nnkUMrHYBU0RwQxqi/xTWOazIDMzVZW3Ch76vxYuAku
+yWWOwa7fG/41jJttJ+hcJglYcV2DggWUSqNtBGSFdXrc/1qx8F9s/LJfNywW+f5a
+e/M6h/BLLhigNZRjemzUBmRnwtQLHDDiurSm9fr3PoaSU6LK4NRPaXteDW848qdX
+lNlZIIrPxFDC7Fz5ARlA1QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBVs3dLTkls
+0LzMIzy22BJr3/9mI2APeYSNZrMSA0mSN0pqyE6qd5eA5yCCV6s1WNghC0Lw4LSb
+boMLkREKQ19mb2F3ro3aysh+tNP4Okp6y5HzyI82apneSfIk5LVzr3FWzoiDil8f
+Nam1/Y9crOr0gHhTUNcv/WJyB1PmYoL7xJNBnueYXsTHRHWjVHdd6YRVOgvN3v5L
+jA6vF30H6D8RtKoxFmyd8KCc6LHikRoYBj6dMUnrhVRLGvg6MZfZTRVWY7U0g+A9
+tOkzHMjnDJOjHFq/Xx+ljDiXuMGin2bhM8PCrc1w8GsHeksq8dkQctcjTa8uRQeQ
+vWhMcy41Qlr5
+-----END CERTIFICATE-----
+subject=C = IN, ST = Delhi, L = New Delhi, O = SERVER CSR, OU = SERVER CSR
+
+issuer=C = IN, ST = Delhi, L = New Delhi, O = CA PEM, OU = CA PEM
+
+---
+Acceptable client certificate CA names
+C = IN, ST = Delhi, L = New Delhi, O = CA PEM, OU = CA PEM
+Requested Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA224:ECDSA+SHA1:RSA+SHA224:RSA+SHA1
+Shared Requested Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 2457 bytes and written 403 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: E2C99D7F9C620009A68B9C0AAAD3F54EEE09B5A0B7C3C87798A2BDA30416C77F
+    Session-ID-ctx: 
+    Resumption PSK: D37891F4DBCC37E7F37C51E38C446D0A7091B37AB45A249CB1B62769F98D7A7E44B9664B7DE7AC69B9F4BAF26AA94496
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 4b 1a ab 72 6d f3 2b 67-ec b6 10 77 1e cd 3c a0   K..rm.+g...w..<.
+    0010 - 41 eb 1f 02 4c 6c 6c 76-9b 1f af b1 22 c0 1a 41   A...Lllv...."..A
+    0020 - 7e 3b f1 16 24 e6 8f 78-f3 1e 63 d9 6a 0b 08 88   ~;..$..x..c.j...
+    0030 - de 7d 0c df 27 e9 38 bf-0d 63 43 5c 6f b0 95 6d   .}..'.8..cC\o..m
+    0040 - ba c6 c0 1b cf 43 2c 29-2d 2a c2 eb c5 13 e9 d7   .....C,)-*......
+    0050 - f0 2e 5c d3 e1 25 64 ab-b9 53 69 9c 7b 84 fc f4   ..\..%d..Si.{...
+    0060 - aa 1f 60 d5 8d b9 7b d8-65 6a a1 b0 17 33 06 cd   ..`...{.ej...3..
+    0070 - c5 91 03 df a8 a2 2d 4e-a6 98 43 2a 8b ce c9 0f   ......-N..C*....
+    0080 - 14 53 f4 f4 03 34 c8 cd-e9 89 c5 a3 96 20 ba 19   .S...4....... ..
+    0090 - e3 d1 5f e2 ad 07 59 12-e3 ee 26 af 5d c6 2a 7b   .._...Y...&.].*{
+    00a0 - 4f 65 25 b9 8c 93 db 13-f6 a8 05 18 a6 68 d4 a6   Oe%..........h..
+    00b0 - 6d 7b f9 21 c3 ed 88 b8-e4 f7 3c 10 7b ab 82 81   m{.!......<.{...
+
+    Start Time: 1647974140
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: E1378D07F0F339592A039A319938CA304D713146F4F2FAD95558E1C833C83CCD
+    Session-ID-ctx: 
+    Resumption PSK: 7A85F19E93A4F33E0D8F654B7CEEB4BEFB2A984B432CF9EF8D840B017FAE99BD43FC9F27AA5C71E15B8F1FF5D87B3F95
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 4b 1a ab 72 6d f3 2b 67-ec b6 10 77 1e cd 3c a0   K..rm.+g...w..<.
+    0010 - 14 4d 61 ef 97 91 05 61-c3 89 5a ba 36 97 48 e9   .Ma....a..Z.6.H.
+    0020 - 39 38 73 4e 47 1b 7a 71-5d 90 d4 82 7d 83 92 88   98sNG.zq]...}...
+    0030 - bf dd 37 0f 38 6b 27 6c-7e 26 85 1e 08 a8 95 a3   ..7.8k'l~&......
+    0040 - bd 99 a0 3d 22 54 48 a4-e5 f8 d2 e8 02 dd 4f 14   ...="TH.......O.
+    0050 - d4 60 26 6c 8b 61 14 23-c1 92 5b 60 d0 8a ce 1f   .`&l.a.#..[`....
+    0060 - 38 6a 41 8c 3c 8d 70 6c-f0 af 94 12 c9 12 f2 17   8jA.<.pl........
+    0070 - 5e f8 c9 9a cb 44 ec 6a-54 8a c2 01 ec 12 55 6a   ^....D.jT.....Uj
+    0080 - 98 47 c8 62 ef 8b 41 68-e3 65 2e 13 19 6d fd 29   .G.b..Ah.e...m.)
+    0090 - 3f 23 1d 6d ec 43 d1 2a-1c e0 90 6f f9 7d c2 db   ?#.m.C.*...o.}..
+    00a0 - 59 50 c7 d3 41 56 9d af-cc 40 93 4c d9 66 a2 af   YP..AV...@.L.f..
+    00b0 - 62 9d a5 21 05 23 b9 8a-1c 8f 58 ac 91 f1 1f dd   b..!.#....X.....
+    00c0 - 0a d4 df e2 5b 1a 61 bc-d1 d3 25 62 23 7a 89 f2   ....[.a...%b#z..
+
+    Start Time: 1647974140
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
