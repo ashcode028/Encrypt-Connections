@@ -1,10 +1,5 @@
 # Encrypt Connections
 
-Class: CSE544
-Name:: Ashita
-Roll No: 2019028
-Type: Exercise4
-
 <aside>
 💡 If two screenshots are present , left hand side is server and right hand side is client
 
