@@ -1,5 +1,9 @@
 # Encrypt Connections
 
+Normally NFSv4 does not use encrypted traffic.Here, we are attempting to encrypt NFSv4 traffic (Network File System) using OpenSSL.
+Task1 : generate public and private keys and certificates using openssl
+Use this in next task where we encrypt the traffic.
+
 <aside>
 💡 If two screenshots are present , left hand side is server and right hand side is client
 
